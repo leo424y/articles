@@ -1,150 +1,150 @@
-最流行的编程语言JavaScript能做什么
+最流行的程式語言JavaScript能做什麼
 ===
 
-首先很遗憾的一点是，“PHP虽然是最好的语言”，但是它不是最流行的语言。
+首先很遺憾的一點是，“PHP雖然是最好的語言”，但是它不是最流行的語言。
 
 ![Sad](http://articles.phodal.com/javascript/sad.jpg)
 
-对不起的还有刚刚在4月TIOBE编程语言排行榜上榜的各个语言：
+對不起的還有剛剛在4月TIOBE程式語言排行榜上榜的各個語言：
 
 ![Tiobe四月](http://articles.phodal.com/javascript/tiobe.png)
 
-你们都很棒，但是你们都担当不了这个大任。
+你們都很棒，但是你們都擔當不了這個大任。
 
-开始之前，我先说一下我常用的三个语言：Java、JavaScript、Python。
+開始之前，我先說一下我常用的三個語言：Java、JavaScript、Python。
 
- - Java，让我学到了很多架构层级的知识，这一点可以参考我之前写的架构相关文档。虽然我一点儿也不喜欢这个语言，但是它真的很棒。
- - Python，它真的足够简单，以至于我喜欢拿它学习各种理论知识，如推荐系统、贝叶斯定理、自然语言处理等等。
+ - Java，讓我學到了很多架構層級的知識，這一點可以參考我之前寫的架構相關文件。雖然我一點兒也不喜歡這個語言，但是它真的很棒。
+ - Python，它真的足夠簡單，以至於我喜歡拿它學習各種理論知識，如推薦系統、貝葉斯定理、自然語言處理等等。
  - JavaScript，看下文。
 
-数据可视化
+資料視覺化
 ---
 
-在过去我阅读的一些书籍里面，主要是以Processing作为可视化的语言——它起始于2001年，它最初是面向美术工作者和设计者创建的，后来变成了全面的设计和原型工具，可以用于创建复杂数据可视化领域。
+在過去我閱讀的一些書籍裡面，主要是以Processing作為視覺化的語言——它起始於2001年，它最初是面向美術工作者和設計者建立的，後來變成了全面的設計和原型工具，可以用於建立複雜資料視覺化領域。
 
 ![Processing](http://articles.phodal.com/javascript/processing.png)
 
-Processing被带入了到Web领域产生了Processing.js，还出现了D3.js。
+Processing被帶入了到Web領域產生了Processing.js，還出現了D3.js。
 
 ![D3.js](http://articles.phodal.com/javascript/d3js.jpg)
 
-当然还有Plotly、Leaflet、Sigma JS等等的工具。
+當然還有Plotly、Leaflet、Sigma JS等等的工具。
 
-移动端应用： Cordova
+移動端應用： Cordova
 ---
 
-接着就是PhoneGap（今天的Cordova），将WebView带向了移动应用，也将JavaScript带向了移动应用。
+接著就是PhoneGap（今天的Cordova），將WebView帶向了移動應用，也將JavaScript帶向了移動應用。
 
 ![Cordova](http://articles.phodal.com/javascript/cordova.png)
 
-使用Cordova，可以让我们**一次开发多平台发布**。我们也顺便提一下Ionic，作为混合应用的翘楚：
+使用Cordova，可以讓我們**一次開發多平臺釋出**。我們也順便提一下Ionic，作為混合應用的翹楚：
 
 ![Ionic](http://articles.phodal.com/javascript/ionic.jpg)
 
-移动端应用： React Native
+移動端應用： React Native
 ---
 
-既然我们已经提到了Cordova，那么我们也应该说说**React Native**。也是一次开发多次运行：
+既然我們已經提到了Cordova，那麼我們也應該說說**React Native**。也是一次開發多次執行：
 
 ![React Native](http://articles.phodal.com/javascript/react-native.png)
 
-虽然它的坑还有很多，但是还是值得期待的。
+雖然它的坑還有很多，但是還是值得期待的。
 
-服务端：Node.js
+服務端：Node.js
 ---
 
-正是V8的性能将JavaScript带到了一个新的高度，于是Node.js诞生了——前端、后台都可以用JavaScript，一个JavaScript的全栈时代。
+正是V8的效能將JavaScript帶到了一個新的高度，於是Node.js誕生了——前端、後臺都可以用JavaScript，一個JavaScript的全棧時代。
 
 ![Nodejs](http://articles.phodal.com/javascript/nodejs.png)
 
-Mongodb作为数据库，Express作为Server端MVC，他们可以提供一个RESTful服务，那么再加上MVVM框架的Angular.js，你就知道我在说什么!
+Mongodb作為資料庫，Express作為Server端MVC，他們可以提供一個RESTful服務，那麼再加上MVVM框架的Angular.js，你就知道我在說什麼!
 
 ![mean.png](http://articles.phodal.com/javascript/mean.png)
 
-桌面应用： NW.js 和 Electron
+桌面應用： NW.js 和 Electron
 ---
 
-NW.js 是基于 Chromium 和 Node.js 运行的， 它们可以让我们用HTML和JavaScript来制作桌面应用。除了NW.js还有最近比较火的Electron，Atom编辑器的
+NW.js 是基於 Chromium 和 Node.js 執行的， 它們可以讓我們用HTML和JavaScript來製作桌面應用。除了NW.js還有最近比較火的Electron，Atom編輯器的
 
 ![Electron](http://articles.phodal.com/javascript/electron.png)
 
-与Cordova的多平台构建多版本不同的是，Electron可以在一个平台上构建多个平台的应用。即我们可以在Mac OS上打包出Linux和Windows上的应用，而不需要在Windows再编译一次。
+與Cordova的多平臺構建多版本不同的是，Electron可以在一個平臺上構建多個平臺的應用。即我們可以在Mac OS上打包出Linux和Windows上的應用，而不需要在Windows再編譯一次。
 
-带向了桌面端，让桌面和Web保持了一致。最成功的案例就是估值达30亿美元的Slack：
+帶向了桌面端，讓桌面和Web保持了一致。最成功的案例就是估值達30億美元的Slack：
 
 ![Slack](http://articles.phodal.com/javascript/slack.jpg)
 
-So，如果你使用桌面端的Slack就会很卡~~。
+So，如果你使用桌面端的Slack就會很卡~~。
 
-全平台应用
+全平臺應用
 ---
 
-还记得我写的那篇《[一份代码构建移动、桌面、Web全平台应用](http://articles.phodal.com/javascript/https://www.phodal.com/blog/build-full-platform-application/)》，在Eletcron上运行Ionic，就意味着无限的可能性。
+還記得我寫的那篇《[一份程式碼構建移動、桌面、Web全平臺應用](http://articles.phodal.com/javascript/https://www.phodal.com/blog/build-full-platform-application/)》，在Eletcron上執行Ionic，就意味著無限的可能性。
 
-![一份代码构建移动、桌面、Web全平台应用](http://articles.phodal.com/javascript/growth-full-platforms.jpg)
+![一份程式碼構建移動、桌面、Web全平臺應用](http://articles.phodal.com/javascript/growth-full-platforms.jpg)
 
-能用Web开发的事情就用Web来完成就好了。
+能用Web開發的事情就用Web來完成就好了。
 
-游戏
+遊戲
 ---
 
-自从WebGL被带入浏览器的那一刻，就决定了这又是一个新的天地。
+自從WebGL被帶入瀏覽器的那一刻，就決定了這又是一個新的天地。
 
-![HTML5 游戏](http://articles.phodal.com/javascript/html5-games.jpg)
+![HTML5 遊戲](http://articles.phodal.com/javascript/html5-games.jpg)
 
-让我们忘记编译、启动更新、外挂等等的问题，并且我们还可以一次开发直接运行。
+讓我們忘記編譯、啟動更新、外掛等等的問題，並且我們還可以一次開發直接執行。
 
 VR
 ---
 
-如果你看到过之前的那篇《[JavaScript在VR世界的应用](http://articles.phodal.com/javascript/https://www.phodal.com/blog/why-javascript-will-use-vr-world/)》，那么你就会对这个内容有更多的印象。
+如果你看到過之前的那篇《[JavaScript在VR世界的應用](http://articles.phodal.com/javascript/https://www.phodal.com/blog/why-javascript-will-use-vr-world/)》，那麼你就會對這個內容有更多的印象。
 
-主要思想还是通过WebView来渲染VR视角：
+主要思想還是通過WebView來渲染VR視角：
 
 ![Three.js Oculus](http://articles.phodal.com/javascript/threejs-oculus.jpeg)
 
-并且各浏览器产商各在推进WebVR 为虚拟现实设备显示提供支持。
+並且各瀏覽器產商各在推進WebVR 為虛擬現實裝置顯示提供支援。
 
 AR
 ---
 
-虽然大部分的AR应用可能离我们有点远，但是离我们最近的就是Leap Motion——它可以利用手掌和手指动作来进行输入，但无需手部接触或者触摸。
+雖然大部分的AR應用可能離我們有點遠，但是離我們最近的就是Leap Motion——它可以利用手掌和手指動作來進行輸入，但無需手部接觸或者觸控。
 
 ![Leap Motion](http://articles.phodal.com/javascript/ar.jpg)
 
-同理于VR，读取传感器的数据，再将其手势交由浏览器端来处理。详细可以参考我之前写的：《[Leap Motion JavaScript开发 手势控制基础篇](http://articles.phodal.com/javascript/https://www.phodal.com/blog/leap-motion-gestures-example/)》
+同理於VR，讀取感測器的資料，再將其手勢交由瀏覽器端來處理。詳細可以參考我之前寫的：《[Leap Motion JavaScript開發 手勢控制基礎篇](http://articles.phodal.com/javascript/https://www.phodal.com/blog/leap-motion-gestures-example/)》
 
-硬件
+硬體
 ---
 
-早先我看到了Arduino在编译的时候，以DSL的方式封装了API。而NodeMCU则内建了Lua语言的支持，可以让开始者使用Lua来开始。 而Tessel 原生就提供了JavaScript运行环境，我们写需要写好JavaScript就可以在上面运行。
+早先我看到了Arduino在編譯的時候，以DSL的方式封裝了API。而NodeMCU則內建了Lua語言的支援，可以讓開始者使用Lua來開始。 而Tessel 原生就提供了JavaScript執行環境，我們寫需要寫好JavaScript就可以在上面執行。
 
 ![Tessel 2](http://articles.phodal.com/javascript/tessel2.jpg)
 
-Tessel 2属于配置比较高的硬件，而低配的呢？
+Tessel 2屬於配置比較高的硬體，而低配的呢？
 
-三星设计了JerryScript引擎，它能够运行在小于64KB内存上，且全部代码能够存储在不足200KB的只读存储（ROM）上。
+三星設計了JerryScript引擎，它能夠執行在小於64KB記憶體上，且全部程式碼能夠儲存在不足200KB的只讀儲存（ROM）上。
 
 ![IoT.js](http://articles.phodal.com/javascript/iotjs.png)
 
-想想就觉得未来是美好的。
+想想就覺得未來是美好的。
 
-物联网
+物聯網
 ---
 
-等等，上面三星推出的是IoT.js，这就意味着它已经可以在物联网领域中应用了，为什么还会有这里的应用呢？我只是想稍微提一下这个：
+等等，上面三星推出的是IoT.js，這就意味著它已經可以在物聯網領域中應用了，為什麼還會有這裡的應用呢？我只是想稍微提一下這個：
 
 ![IoT Node.js](http://articles.phodal.com/javascript/iot-nodejs.jpg)
 
-上面说到的只是Node.js在Web中的应用，而物联网和Web的很大不同之处在于，物联网可以使用各种不同的协议，而这些协议都需要Node.js对其的支持。
+上面說到的只是Node.js在Web中的應用，而物聯網和Web的很大不同之處在於，物聯網可以使用各種不同的協議，而這些協議都需要Node.js對其的支援。
 
-因此，如果我们需要开始Web版、移动应用，那么我们自然更需要其作为后台。
+因此，如果我們需要開始Web版、移動應用，那麼我們自然更需要其作為後臺。
 
-操作系统界面
+作業系統介面
 ---
 
-虽然更好的机器带来了更好的性能，但是显然人们对于原生应用的需求并没有那么强烈。Firefox OS已经在移动操作系统败下阵来，但是这个操作被带到了物联网领域：
+雖然更好的機器帶來了更好的效能，但是顯然人們對於原生應用的需求並沒有那麼強烈。Firefox OS已經在移動作業系統敗下陣來，但是這個操作被帶到了物聯網領域：
 
 ![Firefox OS](http://articles.phodal.com/javascript/firefox-os.jpg)
 
-这就意味着，我们可以使用JavaScript来开发操作系统的界面了。
+這就意味著，我們可以使用JavaScript來開發作業系統的介面了。
